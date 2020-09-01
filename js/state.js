@@ -1,10 +1,9 @@
 /* 
  * State
  * API for pushing and popping the game state and closing unavailable paths while generating.
- * (c) 2014 Q42
- * http://q42.com | @q42
- * Written by Martin Kool
- * martin@q42.nl | @mrtnkl
+ * (c) 2020 Mittenz Team
+ * https://mittenscat.herokuapp.com | @Orago
+ * Written by Orago Dev
  */
 function State(grid) {
 	var self = this,

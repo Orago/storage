@@ -1,10 +1,9 @@
 /* 
  * Tutorial
- * The 0h h1 tutorial with its messages and required tile(s) to tap.
- * (c) 2014 Q42
- * http://q42.com | @q42
- * Written by Martin Kool
- * martin@q42.nl | @mrtnkl
+ * The Mind Bend tutorial with its messages and required tile(s) to tap.
+ * (c) 2020 Mittenz Team
+ * https://mittenscat.herokuapp.com | @Orago
+ * Written by Orago Dev
  */
 var TutorialMessages = {
   1: { msg: 'We\'re going to fill the grid.<br>Tap the tile to make it red.', tiles: [ [0,0,1] ] },

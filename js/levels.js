@@ -2,10 +2,9 @@
  * Levels
  * Stores 2 generated puzzles per size for quick loading on slower devices.
  * Combined with BackgroundService's web worker approach, this brings the loading time down.
- * (c) 2014 Q42
- * http://q42.com | @q42
- * Written by Martin Kool
- * martin@q42.nl | @mrtnkl
+* (c) 2020 Mittenz Team
+ * https://mittenscat.herokuapp.com | @Orago
+ * Written by Orago Dev
  */
 var Levels = new (function(){
   var self = this,

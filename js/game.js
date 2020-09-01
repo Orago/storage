@@ -1,10 +1,9 @@
 /* 
  * Game
- * The main 0h h1 game, a singleton object in global scope.
- * (c) 2014 Q42
- * http://q42.com | @q42
- * Written by Martin Kool
- * martin@q42.nl | @mrtnkl
+ * The main Mind Bend game, a singleton object in global scope.
+ * (c) 2020 Mittenz Team
+ * https://mittenscat.herokuapp.com | @Orago
+ * Written by Orago Dev
  */
 var Game = new (function() {
   var self = this,

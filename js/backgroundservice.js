@@ -1,10 +1,9 @@
 /* 
  * BackgroundService
  * Creates a web worker for generating puzzles in the background.
- * (c) 2014 Q42
- * http://q42.com | @q42
- * Written by Martin Kool
- * martin@q42.nl | @mrtnkl
+ * (c) 2020 Mittenz Team
+ * https://mittenscat.herokuapp.com | @Orago
+ * Written by Orago Dev
  */
 var BackgroundService = new (function() {
 	var self = this,
