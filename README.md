@@ -1,25 +1,32 @@
-3d.city
-=======
+# Radius Raid #
 
-3d city builder [LAUNCH](http://lo-th.github.io/3d.city/index.html)<br>
+Radius Raid is a space themed shoot 'em up where you must blast away unrelenting enemies before they destroy you. The game features 13 enemy types, 5 powerups, parallax backgrounds, retro sound effects, and locally stored stats.
 
-The goal is create 3d city builder to test performance for webgl games<br>
-With minimum size impact and maximum speed.<br>
-(world.sea:161 ko, view.min.js:71 ko, city.3d.min.js:130 ko)<br>
-Webgl 3d side use [Three.js](https://github.com/mrdoob/three.js), 3d model use [Sea3d](https://github.com/sunag/sea3d) format.<br>
+This is an an entry for [js13kGames](http://js13kgames.com) 2013. The theme this year was bad luck, but I didn't work it into my game at all. There are certainly luck and chance factors that affect the gameplay, but those weren't built in for the competition. Check out [Radius Raid](http://js13kgames.com/entries/radius-raid) and all of the other entries at [js13kGames](http://js13kgames.com/entries)!
 
-This game use simulation source micropolisJS by Graememcc<br>
-[https://github.com/graememcc/micropolisJS](https://github.com/graememcc/micropolisJS). Is a port of Micropolis to JS/HTML5.<br>
-Licensed under the GPLv3 with some additional terms please be mindful of these.<br>
+**Final Size:** 13,278 bytes
 
-I have remove all thirdparty library, compact the code and push game simulation in a web worker.
+# Controls #
+**Move:** WASD/Arrows  
+**Aim/Fire:** Mouse  
+**Autofire:** F  
+**Pause:** P  
+**Mute:** M
 
-Work in progress
+# Notes #
+I hate having to say this, but from my testing, if you are not running the game in Chrome... you're gonna have a bad time. It works in other browsers, but the frame rate is just not high enough. I didn't want to sacrifice any visuals for this one. Early on, I decided I would rather have it look and play better in one browser than look ok and play ok in many browsers. It is just the state of the games in browsers at the moment and I am ok with that.
 
-[building destroy](http://lo-th.github.io/3d.city/test_destruct.html)<br>
-[helicopter test](http://lo-th.github.io/3d.city/test_helicopter.html)<br>
-[low version](http://lo-th.github.io/3d.city/index_low.html)<br>
+I so badly wanted to use [@rezoner](https://twitter.com/rezoner)'s JavaScript chiptune composer, [CHIRP](http://chirp.rezoner.net/), but I just couldn't fit it in the limit. It really bummed me out. I composed a few ideas and really loved the feel of the music with the game. So upsetting. You should definitely check out the tool, it is amazing and will be incredibly useful for game music in the future!
 
-<a target='_blank' href='http://lo-th.github.io/3d.city/index.html'><img src="http://lo-th.github.io/3d.city/img/preview01.jpg"/></a><br>
-<a target='_blank' href='http://lo-th.github.io/3d.city/index.html'><img src="http://lo-th.github.io/3d.city/img/preview02.jpg"/></a><br>
-<a target='_blank' href='http://lo-th.github.io/3d.city/index.html'><img src="http://lo-th.github.io/3d.city/img/preview03.jpg"/></a><br>
+# Credits #
+**Created By:** [@jackrugile](https://twitter.com/jackrugile)  
+**Inspiration and Support:** [@rezoner](https://twitter.com/rezoner), [@loktar00](https://twitter.com/loktar00), [@end3r](https://twitter.com/end3r), [@austinhallock](https://twitter.com/austinhallock), [@chandlerprall](https://twitter.com/chandlerprall)  
+**Audio Processing:** [JSFXR](https://github.com/mneubrand/jsfxr) by [@markusneubrand](https://twitter.com/markusneubrand)  
+**Game Inspiration and Ideas:** [Asteroids](http://www.atari.com/arcade/asteroids), [Cell Warfare](http://armorgames.com/play/3204/cell-warfare), [Space Pips](http://armorgames.com/play/3097/space-pips), and many more  
+**HTML5 Canvas Reference:** [HTML5 Canvas Cheat Sheet](https://simon.html5.org/dump/html5-canvas-cheat-sheet.html)  
+**Game Math Reference:** Billy Lamberta - [Foundation HTML5 Animation with JavaScript](http://lamberta.github.io/html5-animation/)
+
+# Screenshots #
+![Radius Raid Menu](http://jackrugile.com/radius-raid/images/menu-screenshot.png "Radius Raid Menu")
+
+![Radius Raid Gameplay](http://jackrugile.com/radius-raid/images/gameplay-screenshot.png "Radius Raid Gameplay")
