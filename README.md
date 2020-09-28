@@ -1,13 +1,16 @@
-# WebGL Filter
+# Documentation HTML Template
+A Sample HTML Documentation Template for Wordpress Themes, HTML Templates and Plugins. Built with Bootstrap 3. 
 
-### [View Live Demo](http://evanw.github.com/webgl-filter/)
+## Installation
+Download the package as ZIP and edit the HTML and CSS as you like.
 
-This is an image editor written using WebGL that allows you to transform your images with various image filters (contrast adjustment, tilt-shift, lens defocus, etc.). WebGL is GPU programming for the web, and allows JavaScript web applications to attain performance that wouldn't otherwise be possible. It was originally written in 24 hours for HackNY 2011 but the core functionality was later moved to the [glfx.js](http://github.com/evanw/glfx.js) library.
+## Demo
+Click this link for a live demo : http://surjithctly.github.io/documentation-html-template/
 
-# Running
+## Donations & Support
+My Brain needs two urgent coffee to continue working. Buy me a coffee or two here: https://opencollective.com/documentation-template
 
-While you can just open `www/index.html`, you won't be able to save because of the security protection on `file://` URLs. Instead, run `cd www && python -m SimpleHTTPServer` and visit `http://localhost:8000`.
+## Credits
+This is a modified version of [Template Visual's](http://themeforest.net/user/templatevisual?ref=surjithctly&utm_source=github_surjithctly_docs) Documentation : Actual Documentation Link : http://goo.gl/RVwdHE
 
-# Screenshot
-
-![](https://github.com/evanw/webgl-filter/raw/master/screenshot.png)
+Browser Testing by [Browserstack](https://www.browserstack.com/)
