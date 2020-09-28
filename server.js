@@ -10,7 +10,7 @@ const app = express();
 
 // make all the files in 'public' available
 // https://expressjs.com/en/starter/static-files.html
-app.use(express.static("/"));
+app.use(express.static("."));
 
 // https://expressjs.com/en/starter/basic-routing.html
 app.get("/", (request, response) => {
