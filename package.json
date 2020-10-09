@@ -10,7 +10,10 @@
     "start": "node server.js"
   },
   "dependencies": {
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "socket.io": "^2.3.0",
+    "fs": "^0.0.2",
+    "util": "^0.12.3"
   },
   "engines": {
     "node": "12.x"
