@@ -1,11 +1,22 @@
-# Coil
+# StarShot
 
-Coil is an addictive HTML5 game where you have to defeat your enemies by enclosing them in your trail. Most of the game is drawn on 2d canvas but if WebGL support is detected additional effects are added.
+### Arrow Key Controls
+* Arrow keys to move.
+* Z to fire.
+* X to slow down time.
+* C to use a bomb to clear the screen of bullets.
+* P to pause.
 
-Curious about how this looks in action? [Check out the live demo](http://hakim.se/experiments/html5/coil).
+### WASD Controls
+* WASD to move.
+* B to fire.
+* N to slow down time.
+* M to use a bomb to clear the screen of bullets.
+* P to pause.
 
-# License
-
-MIT licensed
-
-Copyright (C) 2011 Hakim El Hattab, http://hakim.se
+#### Debugging controls
+* F to toggle FPS display.
+* G to toggle low graphics settings for slower computers.
+* H to toggle displaying hitboxes.
+* T to toggle black background.
+* Y to toggle rendering stars.
